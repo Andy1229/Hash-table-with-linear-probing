@@ -16,18 +16,8 @@ You should start your program by initializing an empty hash table. Your program 
 
 * AWord (Character A followed by a lower-case English word of length at most 10): Aapple means insert key apple into the hash table. If apple is already in the table, do nothing.
 * DWord (Character D followed by a lower-case English word of length at most 10): Dapple means delete key apple from the hash table. If apple is not in the tree, do nothing.
+
 At the end, you need to go through the slots from a to z, and output all the keys separated by space. You don’t need to worry about invalid inputs.
-
-
-Sample input 1: Aaaa Accc Abbb
-Sample output 1: aaa bbb ccc
-Sample input 2: Abba Aaaa Acca Sample output 2: bba aaa cca
-Sample input 3: Abba Aaaa Acca Daaa Sample output 3: bba cca
-You are responsible for writing your own test cases. Please submit test.txt. This file should contain up to 100 lines. Each line must start with a sequence of modification moves and then followed by the correct output.
-For example, the following three lines represent the above three samples.
-   Aaaa Accc Abbb aaa bbb ccc
-   Abba Aaaa Acca bba aaa cca
-   Abba Aaaa Acca Daaa bba cca
 
 ## 2. Running 
 
